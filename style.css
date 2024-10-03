@@ -2,8 +2,8 @@
 
 :root{
     --bg-color:#c9b0d8;
-    --primary-color:#2E073F;
-    --secundary-color:#7A1CAC;
+    --primary-color:#7a2d81;
+    --secundary-color:#af1a9b;
     --font: "Playwrite CU", cursive;
 }
 
@@ -45,6 +45,27 @@ nav a:hover{
     transform: scale(0.90);
     transition: transform 0.1s;
 }
+
+.graficos-container {
+    margin: 5rem;
+}
+
+
+.graficos-container__texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--primary-color) solid 2px;
+}
+
+
+span {
+    font-weight: bold;
+    color: var(--secundary-color);
+}
+
+
+
 
 footer{
     display: flex;
